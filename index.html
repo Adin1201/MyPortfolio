@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo-text">My Portfolio</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="mailto:adin.vrbic@gmail.com" class="button">Contact Me</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Adin Vrbic
+            </h1>
+            <p>
+              Web developer with a degree in Software Engineering, specializing
+              in creating responsive and user-friendly web interfaces.
+              Passionate about coding and constantly improving skills in modern
+              web technologies.
+            </p>
+            <div class="call-to-action">
+              <a href="./VrbicAdin-CV.pdf" class="button black">
+                View Resume
+              </a>
+              <a href="mailto:adin.vrbic@gmail.com" class="button white">
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Adin1201?tab=repositories">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a href="https://www.linkedin.com/in/adin-vrbic1201">
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="./imgs/hero-image.jpeg" alt="Adin Vrbic" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/sass.png" width="128" alt="Sass" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/angularlogo.png" width="128" alt="Angular" />
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/sass.png" width="128" alt="Sass" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/angularlogo.png" width="128" alt="Angular" />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Angular</li>
+              <li>Vue</li>
+              <li>TypeScript</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              Hi, I’m Adin Vrbić, a web developer with a degree in Software
+              Engineering, skilled in Angular and React. I specialize in
+              creating responsive web applications and have a strong background
+              in UI/UX design and graphic design, ensuring both functionality
+              and aesthetics in every project.
+            </p>
+            <p>
+              I’m currently working on personal projects, including building
+              dynamic web applications with Angular and React, while
+              continuously expanding my expertise in modern web technologies. My
+              focus is on crafting user-friendly interfaces and delivering
+              clean, efficient code for seamless user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>
+          <small>Recent</small>
+          Work Experience
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/mdoc-project.jpg"
+                  alt="Workplace 3 - Full-stack Developer"
+                  width="100%"
+                />
+                <figcaption>Workplace - Full-stack Developer</figcaption>
+              </div>
+            </figure>
+            <h3>Full-stack Developer</h3>
+            <div>January 2023 to September 2024</div>
+            <p>
+              Worked as a Full Stack Developer, building and maintaining both
+              frontend and backend components to deliver seamless, end-to-end
+              web applications.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/foodnotify-project.jpg"
+                  alt="Workplace 2 - Frontend Developer"
+                  width="100%"
+                />
+                <figcaption>Workplace - Frontend Developer</figcaption>
+              </div>
+            </figure>
+            <h3>Frontend Developer</h3>
+            <div>May 2022 to August 2022</div>
+            <p>
+              Maintained and updated websites, ensuring optimal performance,
+              functionality, and a seamless user experience..
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/attendo-project.jpg"
+                  alt="Workplace 1 - Frontend Developer"
+                  width="100%"
+                />
+                <figcaption>Workplace - Frontend Developer</figcaption>
+              </div>
+            </figure>
+            <h3>Frontend Developer</h3>
+            <div>May 2022 to August 2022</div>
+            <p>
+              Developed responsive and user-friendly web interfaces using modern
+              frontend technologies, ensuring seamless functionality and an
+              optimal user experience
+            </p>
+          </article>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-links">
+            <a
+              href="https://www.linkedin.com/in/adin-vrbic1201"
+              class="footer-link"
+            >
+              <img src="./imgs/linkedin.png" alt="LinkedIn" width="24" />Adin
+              Vrbic
+            </a>
+            <a
+              href="https://github.com/Adin1201?tab=repositories"
+              class="footer-link"
+            >
+              <img src="./imgs/github.png" alt="GitHub" width="24" /> Adin1201
+            </a>
+            <a href="mailto:adin.vrbic@gmail.com" class="footer-link">
+              <img
+                src="./imgs/email.png"
+                alt="Email"
+                width="24"
+              />adin.vrbic@gmail.com
+            </a>
+          </div>
+
+          <p class="footer-text">© 2025 Adin Vrbic. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
